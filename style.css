@@ -1,16 +1,20 @@
-*{
+* {
   font-family: "Plus Jakarta Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  min-height:100dvh;
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100dvh;
   padding: 12px;
 }
 
-#main-box{
+#main-box {
+  /* width: 100%; */
+  max-width: 600px;
   background: #C1C4EA2E;
   box-shadow: 0px 4px 8px gray;
   border-radius: 20px;
@@ -18,7 +22,7 @@ body{
 }
 
 
-#intro{
+#intro {
   text-align: center;
   margin-bottom: 20px;
   border-radius: 20px 20px 0px 0px;
@@ -27,23 +31,29 @@ body{
   justify-content: center;
   font-size: 1.5rem;
   height: 15vh;
-  min-height:100px ;
+  min-height: 100px;
   color: #FFFFFF;
   background-color: #000000;
 }
-h3{
+
+h3 {
   padding: 0px 0px 0px 20px;
   margin-bottom: 12px;
 }
-#details{
+
+#details {
   font-size: 0.9rem;
   margin-bottom: 25px;
   padding: 0px 0px 0px 20px;
 }
-p{
+
+p {
   padding: 0px 30px 0px 0px;
 }
-#box1,#box2,#box3{
+
+#box1,
+#box2,
+#box3 {
   box-shadow: 0px 2px 3px #CCD8D27D;
   font-size: 0.8rem;
   margin-bottom: 20px;
@@ -57,17 +67,17 @@ p{
   background-color: #FFFBDB;
 }
 
-#box2{
-border-left: 3px solid #127E35;
+#box2 {
+  border-left: 3px solid #127E35;
   background-color: #DBFFDD;
 }
 
-#box3{
+#box3 {
   border-left: 3px solid #7E127E;
   background-color: #F7DBFF;
 }
 
-ul{
+ul {
   line-height: 1.4;
   padding: 0px 30px 0px 20px;
 }
